@@ -1,0 +1,14 @@
+# Run from the repository root. Paths inside source_fd001.yaml retain their meaning.
+base_config: source_fd001.yaml
+# Total attempted trials, including the reference trial (number zero).
+n_trials: 20
+trial_epochs: 30
+trial_patience: 8
+search_seed: 123
+space:
+  learning_rate: [0.0001, 0.003]
+  weight_decay: [0.000001, 0.001]
+  batch_size: [64, 128]
+  hidden_size: [32, 64, 128]
+  num_layers: [1, 2]
+  dropout: [0.0, 0.2, 0.4]

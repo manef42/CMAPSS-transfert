@@ -1,0 +1,2 @@
+# Optional feature; requires Python >=3.11. Exact installed version is saved per study.
+rustuna
