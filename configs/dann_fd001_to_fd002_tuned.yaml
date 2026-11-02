@@ -1,0 +1,36 @@
+# Compatible with the frozen tuned source checkpoint; original DANN preset is preserved.
+data_dir: src
+source: FD001
+target: FD002
+seed: 42
+validation_fraction: 0.2
+window_size: 30
+training_stride: 1
+validation_stride: 10
+rul_cap: 125
+target_scale: 125
+low_variance_threshold: 0.001
+sampling: engine_balanced
+batch_size: 128
+target_batch_size: 128
+adaptation_epochs: 20
+steps_per_epoch: null
+target_units: null
+optimizer: AdamW
+# Adaptation parameters fixed before target test evaluation; not source HPO values.
+adaptation_learning_rate: 0.0001
+weight_decay: 0.0001
+gradient_clip: 5.0
+lambda_schedule: logistic
+lambda_max: 1.0
+lambda_gamma: 10.0
+device: auto
+deterministic: true
+num_workers: 0
+threads: 1
+model:
+  input_size: 24
+  hidden_size: 128
+  num_layers: 1
+  dropout: 0.0
+  head_size: 32

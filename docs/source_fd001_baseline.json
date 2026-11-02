@@ -1,0 +1,22 @@
+{
+  "results_commit": "c7ef595b0a168557a2560f74319b405bf68c2590",
+  "source_checkpoint": "runs/mission_20261102_1800_source_fd001_tuned_s42/checkpoints/best.pt",
+  "checkpoint_git_blob_sha1": "594f77997febf4a6eeb5029d451b82ec141ee6ea",
+  "source_train_sha256": "963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8",
+  "source_validation_engine_balanced_rmse_cycles": 12.305392148178974,
+  "best_epoch_zero_based": 4,
+  "seed": 42,
+  "model": {
+    "input_size": 24,
+    "hidden_size": 128,
+    "num_layers": 1,
+    "dropout": 0.0,
+    "head_size": 32
+  },
+  "dann_config": "configs/dann_fd001_to_fd002_tuned.yaml",
+  "protected_runs": [
+    "runs/mission_20261102_1800_hpo_fd001_s42",
+    "runs/mission_20261102_1800_smoke",
+    "runs/mission_20261102_1800_source_fd001_tuned_s42"
+  ]
+}
