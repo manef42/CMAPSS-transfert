@@ -1,0 +1,9 @@
+{
+  "attempted_trials": 20,
+  "completed_trials": 20,
+  "requested_trials": 20,
+  "segment_seconds": 7001.577998499997,
+  "final_training_executed": false,
+  "test_used": false,
+  "target_used": false
+}

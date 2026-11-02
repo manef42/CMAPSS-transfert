@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "spec": {
+    "base_config": "source_fd001.yaml",
+    "n_trials": 20,
+    "trial_epochs": 30,
+    "trial_patience": 8,
+    "search_seed": 123,
+    "space": {
+      "learning_rate": [
+        0.0001,
+        0.003
+      ],
+      "weight_decay": [
+        1e-06,
+        0.001
+      ],
+      "batch_size": [
+        64,
+        128
+      ],
+      "hidden_size": [
+        32,
+        64,
+        128
+      ],
+      "num_layers": [
+        1,
+        2
+      ],
+      "dropout": [
+        0.0,
+        0.2,
+        0.4
+      ]
+    }
+  },
+  "base_config": {
+    "seed": 42,
+    "data_dir": "src",
+    "source": "FD001",
+    "target": "FD002",
+    "validation_fraction": 0.2,
+    "window_size": 30,
+    "training_stride": 1,
+    "validation_stride": 10,
+    "rul_cap": 125,
+    "target_scale": 125,
+    "low_variance_threshold": 0.001,
+    "batch_size": 128,
+    "target_batch_size": 128,
+    "sampling": "engine_balanced",
+    "epochs": 100,
+    "adaptation_epochs": 20,
+    "steps_per_epoch": null,
+    "patience": 15,
+    "min_delta": 0.0,
+    "learning_rate": 0.001,
+    "adaptation_learning_rate": 0.0001,
+    "optimizer": "AdamW",
+    "weight_decay": 0.0001,
+    "gradient_clip": 5.0,
+    "device": "auto",
+    "deterministic": true,
+    "num_workers": 0,
+    "threads": 1,
+    "lambda_max": 1.0,
+    "lambda_schedule": "logistic",
+    "lambda_gamma": 10.0,
+    "target_units": null,
+    "trajectory_count": 5,
+    "model": {
+      "input_size": 24,
+      "hidden_size": 64,
+      "num_layers": 2,
+      "dropout": 0.2,
+      "head_size": 32
+    }
+  },
+  "source_sha256": "963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8",
+  "rustuna_version": "0.2.1",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "output": "C:\\Users\\boyna\\OneDrive\\Documents\\GitHub\\CMAPSS-transfert\\runs\\mission_20261102_1800_hpo_fd001_s42",
+  "selection": "minimum_source_engine_balanced_validation_rmse_cycles",
+  "sampler": "TPESampler, re-seeded search_seed+trial_number for boundary resume",
+  "test_used": false,
+  "target_used": false
+}

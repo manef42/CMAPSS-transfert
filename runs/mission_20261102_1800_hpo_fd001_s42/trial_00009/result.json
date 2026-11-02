@@ -1,0 +1,12 @@
+{
+  "value_cycles": 13.904071505250293,
+  "checkpoint": "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00009\\checkpoints\\best.pt",
+  "best_epoch_zero_based": 8,
+  "is_reference": false,
+  "learning_rate": 0.00045996782184376176,
+  "weight_decay": 7.067991554158172e-05,
+  "batch_size": 64,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "dropout": 0.0
+}

@@ -1,0 +1,39 @@
+seed: 42
+data_dir: src
+source: FD001
+target: FD002
+validation_fraction: 0.2
+window_size: 30
+training_stride: 1
+validation_stride: 10
+rul_cap: 125
+target_scale: 125
+low_variance_threshold: 0.001
+batch_size: 128
+target_batch_size: 128
+sampling: engine_balanced
+epochs: 30
+adaptation_epochs: 20
+steps_per_epoch: null
+patience: 8
+min_delta: 0.0
+learning_rate: 0.0001518797903542759
+adaptation_learning_rate: 0.0001
+optimizer: AdamW
+weight_decay: 0.00010627246448653309
+gradient_clip: 5.0
+device: auto
+deterministic: true
+num_workers: 0
+threads: 1
+lambda_max: 1.0
+lambda_schedule: logistic
+lambda_gamma: 10.0
+target_units: null
+trajectory_count: 5
+model:
+  input_size: 24
+  hidden_size: 128
+  num_layers: 1
+  dropout: 0.0
+  head_size: 32

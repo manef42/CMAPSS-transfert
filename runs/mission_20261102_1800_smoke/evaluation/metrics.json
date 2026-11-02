@@ -1,0 +1,18 @@
+{
+  "rmse_cycles": 24.164510679477686,
+  "mae_cycles": 23.367354011535646,
+  "bias_cycles": 23.367354011535646,
+  "nasa_sum": 54.851563082920535,
+  "nasa_mean": 10.970312616584106,
+  "nasa_overflow": false,
+  "rmse_overflow": false,
+  "count": 5,
+  "prediction_policy": "raw_linear_no_clipping",
+  "error": "prediction_minus_truth",
+  "dataset": "FD001",
+  "evaluation": "one_terminal_prediction_per_engine",
+  "rul_cap": 125.0,
+  "target_scale": 125.0,
+  "checkpoint": "runs\\mission_20261102_1800_smoke\\train\\checkpoints\\best.pt",
+  "checkpoint_epoch": 1
+}

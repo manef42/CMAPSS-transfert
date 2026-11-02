@@ -1,0 +1,10 @@
+{
+  "mode": "supervised",
+  "completed_epochs": 30,
+  "global_step": 7890,
+  "steps_per_epoch": 263,
+  "selection": "source_engine_balanced_rmse",
+  "elapsed_seconds": 79.99268649998703,
+  "target_labels_used": false,
+  "source_free": false
+}

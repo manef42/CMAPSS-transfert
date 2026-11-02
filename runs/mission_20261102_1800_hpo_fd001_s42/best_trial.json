@@ -1,0 +1,14 @@
+{
+  "trial": 19,
+  "state": "TrialState.COMPLETE",
+  "value_cycles": 12.305392148178974,
+  "checkpoint": "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00019\\checkpoints\\best.pt",
+  "best_epoch_zero_based": 4,
+  "is_reference": false,
+  "learning_rate": 0.0021481277411004285,
+  "weight_decay": 0.00015569865394469748,
+  "batch_size": 128,
+  "hidden_size": 128,
+  "num_layers": 1,
+  "dropout": 0.0
+}

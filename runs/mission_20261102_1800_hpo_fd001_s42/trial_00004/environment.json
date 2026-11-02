@@ -1,0 +1,16 @@
+{
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "packages": {
+    "torch": "2.15.0",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "PyYAML": "6.0.3",
+    "matplotlib": "3.11.2"
+  },
+  "git_commit": "0b454e063a8e433135f6fb05843a01c8ca4cef22",
+  "git_dirty": false,
+  "device": "cpu",
+  "cuda_version": null,
+  "cuda_device": null
+}
