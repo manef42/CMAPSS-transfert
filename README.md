@@ -1,2 +1,0 @@
-# CMAPSS-transfert
-PIE Airbus
