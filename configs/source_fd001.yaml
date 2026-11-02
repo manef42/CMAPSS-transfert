@@ -1,0 +1,28 @@
+# No FD002 file is read by the train command.
+data_dir: src
+source: FD001
+seed: 42
+validation_fraction: 0.2
+window_size: 30
+training_stride: 1
+validation_stride: 10
+rul_cap: 125
+target_scale: 125
+low_variance_threshold: 0.001
+sampling: engine_balanced
+batch_size: 128
+epochs: 100
+patience: 15
+optimizer: AdamW
+learning_rate: 0.001
+weight_decay: 0.0001
+gradient_clip: 5.0
+device: auto
+deterministic: true
+num_workers: 0
+model:
+  input_size: 24
+  hidden_size: 64
+  num_layers: 2
+  dropout: 0.2
+  head_size: 32
