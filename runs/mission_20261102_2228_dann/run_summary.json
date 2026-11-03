@@ -1,0 +1,10 @@
+{
+  "mode": "dann",
+  "completed_epochs": 20,
+  "global_step": 8400,
+  "steps_per_epoch": 420,
+  "selection": "last_fixed_budget",
+  "elapsed_seconds": 12135.4441583,
+  "target_labels_used": false,
+  "source_free": false
+}

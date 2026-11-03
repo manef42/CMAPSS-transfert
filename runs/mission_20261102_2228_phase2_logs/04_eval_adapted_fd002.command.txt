@@ -1,0 +1,1 @@
+﻿cmapss evaluate --checkpoint runs/mission_20261102_2228_dann/checkpoints/last.pt --data-dir src --dataset FD002 --output runs/mission_20261102_2228_adapted_fd002

@@ -1,0 +1,1 @@
+﻿cmapss transfer --checkpoint runs/mission_20261102_1800_source_fd001_tuned_s42/checkpoints/best.pt --data-dir src --dataset FD002 --output runs/mission_20261102_2228_direct_fd002

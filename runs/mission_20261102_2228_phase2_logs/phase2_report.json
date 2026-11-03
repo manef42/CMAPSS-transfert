@@ -1,0 +1,111 @@
+﻿{
+    "completed_at":  "2026-11-03T01:54:22.2647414+01:00",
+    "branch":  "manef",
+    "commit":  "6d71deb7fff8141f48a19c0b239943528d2ded90",
+    "expected_baseline_commit":  "c7ef595b0a168557a2560f74319b405bf68c2590",
+    "baseline_commit_is_ancestor":  true,
+    "environment":  {
+                        "python":  "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+                        "platform":  "Windows-10-10.0.26300-SP0",
+                        "packages":  {
+                                         "torch":  "2.15.0",
+                                         "numpy":  "2.4.6",
+                                         "pandas":  "2.3.3",
+                                         "PyYAML":  "6.0.3",
+                                         "matplotlib":  "3.11.2"
+                                     },
+                        "git_commit":  "6d71deb7fff8141f48a19c0b239943528d2ded90",
+                        "git_dirty":  true,
+                        "device":  "cpu",
+                        "cuda_version":  null,
+                        "cuda_device":  null
+                    },
+    "commands":  [
+                     {
+                         "command":  "cmapss evaluate --checkpoint runs/mission_20261102_1800_source_fd001_tuned_s42/checkpoints/best.pt --data-dir src --dataset FD001 --output runs/mission_20261102_2228_eval_fd001",
+                         "exit_code":  "0"
+                     },
+                     {
+                         "command":  "cmapss transfer --checkpoint runs/mission_20261102_1800_source_fd001_tuned_s42/checkpoints/best.pt --data-dir src --dataset FD002 --output runs/mission_20261102_2228_direct_fd002",
+                         "exit_code":  "0"
+                     },
+                     {
+                         "command":  "cmapss adapt --config configs/dann_fd001_to_fd002_tuned.yaml --source-checkpoint runs/mission_20261102_1800_source_fd001_tuned_s42/checkpoints/best.pt --output runs/mission_20261102_2228_dann",
+                         "exit_code":  "0"
+                     },
+                     {
+                         "command":  "cmapss evaluate --checkpoint runs/mission_20261102_2228_dann/checkpoints/last.pt --data-dir src --dataset FD002 --output runs/mission_20261102_2228_adapted_fd002",
+                         "exit_code":  "0"
+                     }
+                 ],
+    "metrics":  {
+                    "source_fd001_official":  {
+                                                  "rmse_cycles":  14.410018348352073,
+                                                  "mae_cycles":  10.850886044502259,
+                                                  "bias_cycles":  4.238966660499573,
+                                                  "nasa_sum":  393.88958098918613,
+                                                  "nasa_mean":  3.938895809891861,
+                                                  "nasa_overflow":  false,
+                                                  "rmse_overflow":  false,
+                                                  "count":  100,
+                                                  "prediction_policy":  "raw_linear_no_clipping",
+                                                  "error":  "prediction_minus_truth",
+                                                  "dataset":  "FD001",
+                                                  "evaluation":  "one_terminal_prediction_per_engine",
+                                                  "rul_cap":  125,
+                                                  "target_scale":  125,
+                                                  "checkpoint":  "runs\\mission_20261102_1800_source_fd001_tuned_s42\\checkpoints\\best.pt",
+                                                  "checkpoint_epoch":  4
+                                              },
+                    "direct_fd002":  {
+                                         "rmse_cycles":  35.88690918250149,
+                                         "mae_cycles":  31.62461755082414,
+                                         "bias_cycles":  0.6552419699296989,
+                                         "nasa_sum":  15626.138161748699,
+                                         "nasa_mean":  60.3325797750915,
+                                         "nasa_overflow":  false,
+                                         "rmse_overflow":  false,
+                                         "count":  259,
+                                         "prediction_policy":  "raw_linear_no_clipping",
+                                         "error":  "prediction_minus_truth",
+                                         "dataset":  "FD002",
+                                         "evaluation":  "one_terminal_prediction_per_engine",
+                                         "rul_cap":  125,
+                                         "target_scale":  125,
+                                         "checkpoint":  "runs\\mission_20261102_1800_source_fd001_tuned_s42\\checkpoints\\best.pt",
+                                         "checkpoint_epoch":  4
+                                     },
+                    "adapted_fd002":  {
+                                          "rmse_cycles":  51.06400017038881,
+                                          "mae_cycles":  42.54039683397212,
+                                          "bias_cycles":  16.0628536769322,
+                                          "nasa_sum":  67482821.30304871,
+                                          "nasa_mean":  260551.4336025047,
+                                          "nasa_overflow":  false,
+                                          "rmse_overflow":  false,
+                                          "count":  259,
+                                          "prediction_policy":  "raw_linear_no_clipping",
+                                          "error":  "prediction_minus_truth",
+                                          "dataset":  "FD002",
+                                          "evaluation":  "one_terminal_prediction_per_engine",
+                                          "rul_cap":  125,
+                                          "target_scale":  125,
+                                          "checkpoint":  "runs\\mission_20261102_2228_dann\\checkpoints\\last.pt",
+                                          "checkpoint_epoch":  19
+                                      }
+                },
+    "old_run_files_before":  331,
+    "old_run_files_verified_unchanged":  331,
+    "original_data_files_verified_unchanged":  6,
+    "direct_fd002_test_sha256":  "de7b5bf7e998a985c378488480528b7c02cff1406a46740def362dda8d9b4e02",
+    "adapted_fd002_test_sha256":  "de7b5bf7e998a985c378488480528b7c02cff1406a46740def362dda8d9b4e02",
+    "direct_fd002_rul_sha256":  "c851dd96a6ea6998d3c4a8f834d3c8013aa90e93a6ed950dc826ad0655b2906b",
+    "adapted_fd002_rul_sha256":  "c851dd96a6ea6998d3c4a8f834d3c8013aa90e93a6ed950dc826ad0655b2906b",
+    "logs_directory":  "runs\\mission_20261102_2228_phase2_logs",
+    "new_outputs":  [
+                        "runs\\mission_20261102_2228_eval_fd001",
+                        "runs\\mission_20261102_2228_direct_fd002",
+                        "runs\\mission_20261102_2228_dann",
+                        "runs\\mission_20261102_2228_adapted_fd002"
+                    ]
+}

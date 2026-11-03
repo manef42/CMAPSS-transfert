@@ -1,0 +1,18 @@
+{
+  "checkpoint": "runs\\mission_20261102_1800_source_fd001_tuned_s42\\checkpoints\\best.pt",
+  "checkpoint_git_blob_sha1": "594f77997febf4a6eeb5029d451b82ec141ee6ea",
+  "checkpoint_sha256": "c9a3a773d228428a9193103b33e1987ff65164f1226e2a8f62420726ff763b12",
+  "mode": "supervised",
+  "epoch_zero_based": 4,
+  "device": "cpu",
+  "dataset": "FD001 source validation only",
+  "windows_checked": 5,
+  "predictions_cycles": [
+    121.7044677734375,
+    121.34848022460938,
+    124.05831146240234,
+    121.42115783691406,
+    118.05733489990234
+  ],
+  "all_finite": true
+}

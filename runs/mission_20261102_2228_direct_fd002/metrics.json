@@ -1,0 +1,18 @@
+{
+  "rmse_cycles": 35.88690918250149,
+  "mae_cycles": 31.62461755082414,
+  "bias_cycles": 0.6552419699296989,
+  "nasa_sum": 15626.138161748699,
+  "nasa_mean": 60.3325797750915,
+  "nasa_overflow": false,
+  "rmse_overflow": false,
+  "count": 259,
+  "prediction_policy": "raw_linear_no_clipping",
+  "error": "prediction_minus_truth",
+  "dataset": "FD002",
+  "evaluation": "one_terminal_prediction_per_engine",
+  "rul_cap": 125,
+  "target_scale": 125,
+  "checkpoint": "runs\\mission_20261102_1800_source_fd001_tuned_s42\\checkpoints\\best.pt",
+  "checkpoint_epoch": 4
+}

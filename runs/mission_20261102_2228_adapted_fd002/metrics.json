@@ -1,0 +1,18 @@
+{
+  "rmse_cycles": 51.06400017038881,
+  "mae_cycles": 42.54039683397212,
+  "bias_cycles": 16.0628536769322,
+  "nasa_sum": 67482821.30304871,
+  "nasa_mean": 260551.4336025047,
+  "nasa_overflow": false,
+  "rmse_overflow": false,
+  "count": 259,
+  "prediction_policy": "raw_linear_no_clipping",
+  "error": "prediction_minus_truth",
+  "dataset": "FD002",
+  "evaluation": "one_terminal_prediction_per_engine",
+  "rul_cap": 125,
+  "target_scale": 125,
+  "checkpoint": "runs\\mission_20261102_2228_dann\\checkpoints\\last.pt",
+  "checkpoint_epoch": 19
+}

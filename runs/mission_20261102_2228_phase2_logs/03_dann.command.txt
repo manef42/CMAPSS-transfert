@@ -1,0 +1,1 @@
+﻿cmapss adapt --config configs/dann_fd001_to_fd002_tuned.yaml --source-checkpoint runs/mission_20261102_1800_source_fd001_tuned_s42/checkpoints/best.pt --output runs/mission_20261102_2228_dann

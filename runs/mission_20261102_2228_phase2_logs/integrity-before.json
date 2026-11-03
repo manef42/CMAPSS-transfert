@@ -1,0 +1,1703 @@
+﻿{
+    "created_at":  "2026-11-02T22:28:49.9448922+01:00",
+    "repository":  "C:\\Users\\boyna\\OneDrive\\Documents\\GitHub\\CMAPSS-transfert",
+    "branch":  "manef",
+    "commit":  "6d71deb7fff8141f48a19c0b239943528d2ded90",
+    "expected_results_commit":  "c7ef595b0a168557a2560f74319b405bf68c2590",
+    "checkpoint_path":  "runs/mission_20261102_1800_source_fd001_tuned_s42/checkpoints/best.pt",
+    "checkpoint_git_blob_sha1":  "594f77997febf4a6eeb5029d451b82ec141ee6ea",
+    "existing_runs_sha256":  [
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\best_config.yaml",
+                                     "length":  774,
+                                     "sha256":  "510ecd378e5f8742318a36e49277d062255be04551cf0e4fe7a248f38398d7d4"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\best_trial.json",
+                                     "length":  417,
+                                     "sha256":  "27b060a412774677ec156f45255773d1386eb78a1492242399b95fa559699f4a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\search_manifest.json",
+                                     "length":  2196,
+                                     "sha256":  "5db003eef544bc5f1e5eaceaf1d311da3f5d624f22fa3f072199efcf3f1c43b2"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\search_summary.json",
+                                     "length":  210,
+                                     "sha256":  "6d2e744c3835530b56e22ef6d3a70cb5c19a16a066eb3f0677633fe16f2dbfec"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\source_protocol.json",
+                                     "length":  3189,
+                                     "sha256":  "7391dba045625a78cc621a7fb10ac960055cbfcc127b43a59abb9dfb69a34247"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\study.db",
+                                     "length":  135168,
+                                     "sha256":  "f807c05e338c8452b68d5454135155713b33a91f5178cd0946a4a24baf11a3bf"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trials.csv",
+                                     "length":  3751,
+                                     "sha256":  "e57fed89e80177f531b5bacbc2a7a491c885021987ef2763e70b3651c1e0dd63"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00000\\data_sha256.json",
+                                     "length":  98,
+                                     "sha256":  "ac37f4da9dfd993a8492f3624fc3ab744d0e226aa5f1be7e18f2be33202e54da"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00000\\dispersion_source_train.csv",
+                                     "length":  2802,
+                                     "sha256":  "006a6f083904d67ea2b623498a7240f68b02693fdbe84bafb8220684d12162fe"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00000\\dispersion_source_validation.csv",
+                                     "length":  2782,
+                                     "sha256":  "8cc0beb4b83e99f05636f92fb3b2a27d08e6beaf59a694416e83bb34c7d236ae"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00000\\environment.json",
+                                     "length":  443,
+                                     "sha256":  "4d60105a173b5073d74423f771001ef46379599f70d42ae866c8ca99b190a3e1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00000\\history.csv",
+                                     "length":  965,
+                                     "sha256":  "d863d4e935d589b8a689fc70a681bd1e249317da226f406a74d4cf91795ecba6"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00000\\preprocessing.json",
+                                     "length":  1788,
+                                     "sha256":  "d2493b0c8d7b4f0099ea48597b6647ec0424b865efded6f168cb25dc56ee827a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00000\\resolved_config.yaml",
+                                     "length":  739,
+                                     "sha256":  "3ec2d2ad93e7fd9913c0c92df96207951c566b11b317e8bce3334b859427a80d"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00000\\result.json",
+                                     "length":  333,
+                                     "sha256":  "91e0d79f6fd8faa7ab3d9655ce1b16bd97b4efabaa1175e7d567f4319e6bf804"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00000\\run_summary.json",
+                                     "length":  252,
+                                     "sha256":  "fb18c813aa49c458a80982ba87376523d5e92291535174721aa8046ee0cd5b6b"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00000\\split_manifest.json",
+                                     "length":  938,
+                                     "sha256":  "b0d8ea2e5a3a38fa0b68a637579637ea3efc7ba51c730f27f86a637011dbca36"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00000\\validation_predictions.csv",
+                                     "length":  33017,
+                                     "sha256":  "f3a4d49b34426501645bf80f39e5517917cf221b856fcd91564f755564badd07"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00000\\checkpoints\\best.pt",
+                                     "length":  744781,
+                                     "sha256":  "bc39d474018cd6279b6138baf47ef7ed0ebacb3c22dff441ced664dea1b39cdd"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00000\\checkpoints\\last.pt",
+                                     "length":  745165,
+                                     "sha256":  "58960cd1b50ccd53a8e54ea59661ba91abeca21a61c1d97e7d12d41a2806d675"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00000\\figures\\learning.png",
+                                     "length":  112761,
+                                     "sha256":  "e8c7c622c9cd6caf6f4991a249e279eaf8cee68f5f96a684b0780402d79f3fc4"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00001\\data_sha256.json",
+                                     "length":  98,
+                                     "sha256":  "ac37f4da9dfd993a8492f3624fc3ab744d0e226aa5f1be7e18f2be33202e54da"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00001\\dispersion_source_train.csv",
+                                     "length":  2802,
+                                     "sha256":  "006a6f083904d67ea2b623498a7240f68b02693fdbe84bafb8220684d12162fe"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00001\\dispersion_source_validation.csv",
+                                     "length":  2782,
+                                     "sha256":  "8cc0beb4b83e99f05636f92fb3b2a27d08e6beaf59a694416e83bb34c7d236ae"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00001\\environment.json",
+                                     "length":  443,
+                                     "sha256":  "4d60105a173b5073d74423f771001ef46379599f70d42ae866c8ca99b190a3e1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00001\\history.csv",
+                                     "length":  1491,
+                                     "sha256":  "2ffd6b5a1bd32274ad471c5ecafbe7a19b75c88785c43d47f93625fbf850ba28"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00001\\preprocessing.json",
+                                     "length":  1788,
+                                     "sha256":  "d2493b0c8d7b4f0099ea48597b6647ec0424b865efded6f168cb25dc56ee827a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00001\\resolved_config.yaml",
+                                     "length":  771,
+                                     "sha256":  "6211f2e827c5494b190c4e171cc807dfb282a8b45c24d2b7ee4c2d74bb492fa2"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00001\\result.json",
+                                     "length":  366,
+                                     "sha256":  "867451774fc99a31161f78c90b3be7f2591b57dbfdb3ba203db36dcdb14b6a88"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00001\\run_summary.json",
+                                     "length":  251,
+                                     "sha256":  "3af2a8b08b1e1be86a7d705805ccbcee54ce45bbf37bac9758d1bcae73150040"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00001\\split_manifest.json",
+                                     "length":  938,
+                                     "sha256":  "b0d8ea2e5a3a38fa0b68a637579637ea3efc7ba51c730f27f86a637011dbca36"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00001\\validation_predictions.csv",
+                                     "length":  33052,
+                                     "sha256":  "aacef7a754a3fee3c1ceeff55dceee5b215d906f74a76c0f6310eaae4c161d85"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00001\\checkpoints\\best.pt",
+                                     "length":  138733,
+                                     "sha256":  "9fd771a3e4d720cd651c7b8e0c93e93012ce690f7b477a1a9d615593a8aef4b4"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00001\\checkpoints\\last.pt",
+                                     "length":  139053,
+                                     "sha256":  "9603125488ad85d1d4591da5d322f82bdcf6b82129d2cabbf77617ab0a2215f2"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00001\\figures\\learning.png",
+                                     "length":  93385,
+                                     "sha256":  "a3dc0724394a10fda54a329a1a939443d9ec1f539352adab52a84471fe751c9f"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00002\\data_sha256.json",
+                                     "length":  98,
+                                     "sha256":  "ac37f4da9dfd993a8492f3624fc3ab744d0e226aa5f1be7e18f2be33202e54da"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00002\\dispersion_source_train.csv",
+                                     "length":  2802,
+                                     "sha256":  "006a6f083904d67ea2b623498a7240f68b02693fdbe84bafb8220684d12162fe"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00002\\dispersion_source_validation.csv",
+                                     "length":  2782,
+                                     "sha256":  "8cc0beb4b83e99f05636f92fb3b2a27d08e6beaf59a694416e83bb34c7d236ae"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00002\\environment.json",
+                                     "length":  443,
+                                     "sha256":  "4d60105a173b5073d74423f771001ef46379599f70d42ae866c8ca99b190a3e1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00002\\history.csv",
+                                     "length":  1396,
+                                     "sha256":  "73ac5d4396f907b0ee0dcf80109f1d665e5983eb5901919e8c282aa830138d05"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00002\\preprocessing.json",
+                                     "length":  1788,
+                                     "sha256":  "d2493b0c8d7b4f0099ea48597b6647ec0424b865efded6f168cb25dc56ee827a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00002\\resolved_config.yaml",
+                                     "length":  773,
+                                     "sha256":  "2864e816e64f6201f77a1be5f31fcec18c7a6f08b943ce6d46fe124493bbfe0a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00002\\result.json",
+                                     "length":  368,
+                                     "sha256":  "02c54fa75a4506866a28a8fff8727d3a573948aa12750eafe0711e9d96340da8"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00002\\run_summary.json",
+                                     "length":  252,
+                                     "sha256":  "10a81766358ce3c93e5259e2cc152553b81ebbd68d3042acb446b88d35a93621"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00002\\split_manifest.json",
+                                     "length":  938,
+                                     "sha256":  "b0d8ea2e5a3a38fa0b68a637579637ea3efc7ba51c730f27f86a637011dbca36"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00002\\validation_predictions.csv",
+                                     "length":  33153,
+                                     "sha256":  "bf0e70a34520329de264e20599602c028337e0b33d486f53a450cbb1905bd5e8"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00002\\checkpoints\\best.pt",
+                                     "length":  1044845,
+                                     "sha256":  "d791393dbe8dead3b5be3229274fa2904c6cfa4e87a90218e725c50e94985c86"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00002\\checkpoints\\last.pt",
+                                     "length":  1045229,
+                                     "sha256":  "bbe41a69184f082f86e0898227da1cfe7f9a9431bf979d35cd1cee38924d9585"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00002\\figures\\learning.png",
+                                     "length":  99845,
+                                     "sha256":  "a50737bf957dcc8fa499732787b23f198a0651bb385e23ddc99b20c6a3d43df8"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00003\\data_sha256.json",
+                                     "length":  98,
+                                     "sha256":  "ac37f4da9dfd993a8492f3624fc3ab744d0e226aa5f1be7e18f2be33202e54da"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00003\\dispersion_source_train.csv",
+                                     "length":  2802,
+                                     "sha256":  "006a6f083904d67ea2b623498a7240f68b02693fdbe84bafb8220684d12162fe"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00003\\dispersion_source_validation.csv",
+                                     "length":  2782,
+                                     "sha256":  "8cc0beb4b83e99f05636f92fb3b2a27d08e6beaf59a694416e83bb34c7d236ae"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00003\\environment.json",
+                                     "length":  443,
+                                     "sha256":  "4d60105a173b5073d74423f771001ef46379599f70d42ae866c8ca99b190a3e1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00003\\history.csv",
+                                     "length":  920,
+                                     "sha256":  "bec1c3f8594915931f03804d3d23edc24df085f435a9b58262865892c9cd6a9d"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00003\\preprocessing.json",
+                                     "length":  1788,
+                                     "sha256":  "d2493b0c8d7b4f0099ea48597b6647ec0424b865efded6f168cb25dc56ee827a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00003\\resolved_config.yaml",
+                                     "length":  770,
+                                     "sha256":  "34c54bc6e161e82ebbf4b4203ea286d2869bfcde1a296c994eff153f6026d50d"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00003\\result.json",
+                                     "length":  364,
+                                     "sha256":  "1575f1d0ab96052974b6e4a68f1a369fc55aa3a465c5bccc32f3d2534a934b15"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00003\\run_summary.json",
+                                     "length":  251,
+                                     "sha256":  "fc6dc1382955eadd3320b4cf903fe1b11432f03880014ec09e6180509b7366dc"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00003\\split_manifest.json",
+                                     "length":  938,
+                                     "sha256":  "b0d8ea2e5a3a38fa0b68a637579637ea3efc7ba51c730f27f86a637011dbca36"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00003\\validation_predictions.csv",
+                                     "length":  33084,
+                                     "sha256":  "88cc57fe15f5332dfbb0dad10d73c8c846331f1c98c4215f4cff950cdc64a28d"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00003\\checkpoints\\best.pt",
+                                     "length":  138029,
+                                     "sha256":  "287ee5ea17525226436301635cb23a35bd4e752f441d9883d6a3bfaa4ccc05ed"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00003\\checkpoints\\last.pt",
+                                     "length":  138477,
+                                     "sha256":  "176dbc1713f1f44256930606ff6fc518c8d94df5f60e7cff2bc5b6481cbbad8d"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00003\\figures\\learning.png",
+                                     "length":  103709,
+                                     "sha256":  "a60af6563b3931bc5255b031dc46a583afcf7da084faf64693b3db68e8c4cf95"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00004\\data_sha256.json",
+                                     "length":  98,
+                                     "sha256":  "ac37f4da9dfd993a8492f3624fc3ab744d0e226aa5f1be7e18f2be33202e54da"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00004\\dispersion_source_train.csv",
+                                     "length":  2802,
+                                     "sha256":  "006a6f083904d67ea2b623498a7240f68b02693fdbe84bafb8220684d12162fe"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00004\\dispersion_source_validation.csv",
+                                     "length":  2782,
+                                     "sha256":  "8cc0beb4b83e99f05636f92fb3b2a27d08e6beaf59a694416e83bb34c7d236ae"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00004\\environment.json",
+                                     "length":  443,
+                                     "sha256":  "4d60105a173b5073d74423f771001ef46379599f70d42ae866c8ca99b190a3e1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00004\\history.csv",
+                                     "length":  1011,
+                                     "sha256":  "a7e63dbad82a074d4a6c1d26c0a27fba1ca4b31c8585d4deac09823c6f7d7e02"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00004\\preprocessing.json",
+                                     "length":  1788,
+                                     "sha256":  "d2493b0c8d7b4f0099ea48597b6647ec0424b865efded6f168cb25dc56ee827a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00004\\resolved_config.yaml",
+                                     "length":  771,
+                                     "sha256":  "d674b2d2ab9262f841817a8eb1c96dee3744fe0673416f41c05439ac54daab8c"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00004\\result.json",
+                                     "length":  366,
+                                     "sha256":  "3d9e3c72d99e7ddb6d4399bb5edcdfb3638a62e9a699dc9dca46f8773e8b390a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00004\\run_summary.json",
+                                     "length":  251,
+                                     "sha256":  "0d0af7e4c6731d5874ed18b37fe2063f011462950a56d70f39cec6c423bbae7a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00004\\split_manifest.json",
+                                     "length":  938,
+                                     "sha256":  "b0d8ea2e5a3a38fa0b68a637579637ea3efc7ba51c730f27f86a637011dbca36"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00004\\validation_predictions.csv",
+                                     "length":  32966,
+                                     "sha256":  "5e8a8ad46b99a384b77cc71b3946ff089ea7f95f0fcd25c5341e9ebc30306fa4"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00004\\checkpoints\\best.pt",
+                                     "length":  138157,
+                                     "sha256":  "3f23a900f3c2bf308063009862f7adb2edb5d8e2fbdc3a966da2ea02a8718518"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00004\\checkpoints\\last.pt",
+                                     "length":  138541,
+                                     "sha256":  "52b12ac708a43ed657d2533aab6d0494923f8f9a221086736a583e7045f7a75d"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00004\\figures\\learning.png",
+                                     "length":  107887,
+                                     "sha256":  "e9e00d69ca2d6d4e889c6c7d652a00812cc9e1e9ea625c65e03f1437c9c05709"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00005\\data_sha256.json",
+                                     "length":  98,
+                                     "sha256":  "ac37f4da9dfd993a8492f3624fc3ab744d0e226aa5f1be7e18f2be33202e54da"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00005\\dispersion_source_train.csv",
+                                     "length":  2802,
+                                     "sha256":  "006a6f083904d67ea2b623498a7240f68b02693fdbe84bafb8220684d12162fe"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00005\\dispersion_source_validation.csv",
+                                     "length":  2782,
+                                     "sha256":  "8cc0beb4b83e99f05636f92fb3b2a27d08e6beaf59a694416e83bb34c7d236ae"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00005\\environment.json",
+                                     "length":  443,
+                                     "sha256":  "4d60105a173b5073d74423f771001ef46379599f70d42ae866c8ca99b190a3e1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00005\\history.csv",
+                                     "length":  774,
+                                     "sha256":  "067da436dd3334bbe0fd2be0ecd9bc01cb86f4708ee53cf8c643fb481e85415f"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00005\\preprocessing.json",
+                                     "length":  1788,
+                                     "sha256":  "d2493b0c8d7b4f0099ea48597b6647ec0424b865efded6f168cb25dc56ee827a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00005\\resolved_config.yaml",
+                                     "length":  768,
+                                     "sha256":  "c448d194fbb1ee6b14b1ffe3327d3a2c28b623a57f427bb7b0b480891d2e339f"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00005\\result.json",
+                                     "length":  362,
+                                     "sha256":  "e07742983059d66b6890b52014def3db6f7dc75d811a43695f8d471495d4dd9d"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00005\\run_summary.json",
+                                     "length":  251,
+                                     "sha256":  "3e679de224c6495aa317f8cc51e935cfa0d9ceae666777c752a519af0752c0f0"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00005\\split_manifest.json",
+                                     "length":  938,
+                                     "sha256":  "b0d8ea2e5a3a38fa0b68a637579637ea3efc7ba51c730f27f86a637011dbca36"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00005\\validation_predictions.csv",
+                                     "length":  33129,
+                                     "sha256":  "0b782edd0b340642a0d21e35175e1dbf6c0e3378df288f6f45f2d36c21010cdc"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00005\\checkpoints\\best.pt",
+                                     "length":  341677,
+                                     "sha256":  "0a23290f8779fd7324e94b33fc41b1913ab43563a772a60007678db4222e02d3"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00005\\checkpoints\\last.pt",
+                                     "length":  342125,
+                                     "sha256":  "2c1e9e8652e5df27e2d64c4d9089e45d2e70b1cade21be8d01d4b3db1a418e9b"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00005\\figures\\learning.png",
+                                     "length":  103785,
+                                     "sha256":  "f8e846a9145b091b13e6c6f9010b927799f488f9ff08ecf257e4ed79bb4ba41e"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00006\\data_sha256.json",
+                                     "length":  98,
+                                     "sha256":  "ac37f4da9dfd993a8492f3624fc3ab744d0e226aa5f1be7e18f2be33202e54da"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00006\\dispersion_source_train.csv",
+                                     "length":  2802,
+                                     "sha256":  "006a6f083904d67ea2b623498a7240f68b02693fdbe84bafb8220684d12162fe"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00006\\dispersion_source_validation.csv",
+                                     "length":  2782,
+                                     "sha256":  "8cc0beb4b83e99f05636f92fb3b2a27d08e6beaf59a694416e83bb34c7d236ae"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00006\\environment.json",
+                                     "length":  443,
+                                     "sha256":  "4d60105a173b5073d74423f771001ef46379599f70d42ae866c8ca99b190a3e1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00006\\history.csv",
+                                     "length":  915,
+                                     "sha256":  "93f30180b3f41dfc6d0296e5a51c3aa276fb28c3c833eeabb4481730682bb2b7"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00006\\preprocessing.json",
+                                     "length":  1788,
+                                     "sha256":  "d2493b0c8d7b4f0099ea48597b6647ec0424b865efded6f168cb25dc56ee827a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00006\\resolved_config.yaml",
+                                     "length":  770,
+                                     "sha256":  "7e526b0cfc2f234a17f90df0f6d2dcdad7f06f2070767e3311fcaa588462254e"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00006\\result.json",
+                                     "length":  364,
+                                     "sha256":  "b25a29376924a9425a26274ac160a86e8a8c005fec8b176e8f464f0ccfa6e454"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00006\\run_summary.json",
+                                     "length":  251,
+                                     "sha256":  "7b1e0a9b01ed7af841c96a50ff17ae51dcdb2a91ff0db2b17d639653de6ceece"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00006\\split_manifest.json",
+                                     "length":  938,
+                                     "sha256":  "b0d8ea2e5a3a38fa0b68a637579637ea3efc7ba51c730f27f86a637011dbca36"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00006\\validation_predictions.csv",
+                                     "length":  33073,
+                                     "sha256":  "d7fd9f5d157cc82e775638c7494846487510cfd19a32439f5ab33464aad20597"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00006\\checkpoints\\best.pt",
+                                     "length":  138029,
+                                     "sha256":  "2f72c1eb17916b87a61b7652308cc169499157b78354f52dd1a3d25c61b3ed74"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00006\\checkpoints\\last.pt",
+                                     "length":  138477,
+                                     "sha256":  "3cdf3924843a7dfdbd58e84fc44cace83a697955323f4868ff0279c2ac6c5fcb"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00006\\figures\\learning.png",
+                                     "length":  102828,
+                                     "sha256":  "eb6787fc5518dfc82cd452bd2b3289062f9b71cb6a3cdf9bba09ef4f352c128f"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00007\\data_sha256.json",
+                                     "length":  98,
+                                     "sha256":  "ac37f4da9dfd993a8492f3624fc3ab744d0e226aa5f1be7e18f2be33202e54da"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00007\\dispersion_source_train.csv",
+                                     "length":  2802,
+                                     "sha256":  "006a6f083904d67ea2b623498a7240f68b02693fdbe84bafb8220684d12162fe"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00007\\dispersion_source_validation.csv",
+                                     "length":  2782,
+                                     "sha256":  "8cc0beb4b83e99f05636f92fb3b2a27d08e6beaf59a694416e83bb34c7d236ae"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00007\\environment.json",
+                                     "length":  443,
+                                     "sha256":  "4d60105a173b5073d74423f771001ef46379599f70d42ae866c8ca99b190a3e1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00007\\history.csv",
+                                     "length":  1402,
+                                     "sha256":  "3f9861db99e8d4a5c174bde580f068e37d076246aa48c634271f121357533c64"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00007\\preprocessing.json",
+                                     "length":  1788,
+                                     "sha256":  "d2493b0c8d7b4f0099ea48597b6647ec0424b865efded6f168cb25dc56ee827a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00007\\resolved_config.yaml",
+                                     "length":  770,
+                                     "sha256":  "737da402793a606b72f6872341d88d5a68324c8122164f3ff1cb53d2124f1b23"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00007\\result.json",
+                                     "length":  365,
+                                     "sha256":  "9eb8773f16e2b84ad56337d8952ea9a50cd67ad04a17906db44653ea0d3f88fd"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00007\\run_summary.json",
+                                     "length":  252,
+                                     "sha256":  "d3d086be5aebe82d5e864583fe79c1abbdeb28098390fd3ffabb67563b8c8d6d"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00007\\split_manifest.json",
+                                     "length":  938,
+                                     "sha256":  "b0d8ea2e5a3a38fa0b68a637579637ea3efc7ba51c730f27f86a637011dbca36"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00007\\validation_predictions.csv",
+                                     "length":  33167,
+                                     "sha256":  "9778d6f12e55184a1733863a7911a4e2131cb92a6049bbdcb8b280da74d68ddd"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00007\\checkpoints\\best.pt",
+                                     "length":  243405,
+                                     "sha256":  "9e61a4b0d845c86a306f7f8b78f14e5034ce97965a83af05d02b39ad09292ef2"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00007\\checkpoints\\last.pt",
+                                     "length":  243853,
+                                     "sha256":  "b15be65229b328a1b0aafd91ef9d3074daa1945a10cbb978f39597f272b526a7"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00007\\figures\\learning.png",
+                                     "length":  90954,
+                                     "sha256":  "a4e3e8a4e9e43ec36a5b968994a42cfcd0055c301e0eb079cb8cb13e5bbca643"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00008\\data_sha256.json",
+                                     "length":  98,
+                                     "sha256":  "ac37f4da9dfd993a8492f3624fc3ab744d0e226aa5f1be7e18f2be33202e54da"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00008\\dispersion_source_train.csv",
+                                     "length":  2802,
+                                     "sha256":  "006a6f083904d67ea2b623498a7240f68b02693fdbe84bafb8220684d12162fe"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00008\\dispersion_source_validation.csv",
+                                     "length":  2782,
+                                     "sha256":  "8cc0beb4b83e99f05636f92fb3b2a27d08e6beaf59a694416e83bb34c7d236ae"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00008\\environment.json",
+                                     "length":  443,
+                                     "sha256":  "4d60105a173b5073d74423f771001ef46379599f70d42ae866c8ca99b190a3e1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00008\\history.csv",
+                                     "length":  924,
+                                     "sha256":  "6e891e67d1b59573dc5134123147c1ca8e8d31ebb60283e4c05879af8b0a9dbc"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00008\\preprocessing.json",
+                                     "length":  1788,
+                                     "sha256":  "d2493b0c8d7b4f0099ea48597b6647ec0424b865efded6f168cb25dc56ee827a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00008\\resolved_config.yaml",
+                                     "length":  768,
+                                     "sha256":  "310ee1788850074caff99c173cb9de76e707eaa9889d2335b8052194617b410a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00008\\result.json",
+                                     "length":  362,
+                                     "sha256":  "2cc7e1246ad18c95f71642feec2bc0e16014bb49c745d99a8956805575984219"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00008\\run_summary.json",
+                                     "length":  252,
+                                     "sha256":  "f5c45091f67d7168dedda150596d64a0c023cbade1a4a4f07c9dd004b08de785"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00008\\split_manifest.json",
+                                     "length":  938,
+                                     "sha256":  "b0d8ea2e5a3a38fa0b68a637579637ea3efc7ba51c730f27f86a637011dbca36"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00008\\validation_predictions.csv",
+                                     "length":  33156,
+                                     "sha256":  "f7cf121d6648e2ce2769ff7346ed15382f5aff4d6c86b601c549d8b1c51e7129"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00008\\checkpoints\\best.pt",
+                                     "length":  744717,
+                                     "sha256":  "fdb6e5cc0b4aa5092db8d336ed3e9ec249ab5fde8431daf6959d5e700f82e26f"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00008\\checkpoints\\last.pt",
+                                     "length":  745101,
+                                     "sha256":  "52ada49dc0e382b846816c8f6c877d6159b3567fbf66f2357bc3054f44f7e169"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00008\\figures\\learning.png",
+                                     "length":  100417,
+                                     "sha256":  "31197c59104504324b27980b6376c19a7454fd67dc5649e054f7de12ab6cee9d"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00009\\data_sha256.json",
+                                     "length":  98,
+                                     "sha256":  "ac37f4da9dfd993a8492f3624fc3ab744d0e226aa5f1be7e18f2be33202e54da"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00009\\dispersion_source_train.csv",
+                                     "length":  2802,
+                                     "sha256":  "006a6f083904d67ea2b623498a7240f68b02693fdbe84bafb8220684d12162fe"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00009\\dispersion_source_validation.csv",
+                                     "length":  2782,
+                                     "sha256":  "8cc0beb4b83e99f05636f92fb3b2a27d08e6beaf59a694416e83bb34c7d236ae"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00009\\environment.json",
+                                     "length":  443,
+                                     "sha256":  "4d60105a173b5073d74423f771001ef46379599f70d42ae866c8ca99b190a3e1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00009\\history.csv",
+                                     "length":  867,
+                                     "sha256":  "3f4f15832148d08a6f921205adc493426af81f3e151331558a1782e50f2633cd"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00009\\preprocessing.json",
+                                     "length":  1788,
+                                     "sha256":  "d2493b0c8d7b4f0099ea48597b6647ec0424b865efded6f168cb25dc56ee827a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00009\\resolved_config.yaml",
+                                     "length":  770,
+                                     "sha256":  "e4b59eb958f7e01ba9fdd96972d94f086d5b010892a324923a39f74b7b30c8f7"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00009\\result.json",
+                                     "length":  364,
+                                     "sha256":  "dc6e88b19ac444e14d105c80e58769760814c458f63723033ede7daa9cbc6eef"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00009\\run_summary.json",
+                                     "length":  250,
+                                     "sha256":  "d942b1fddf166bcf258be2f31cd0969b998e1a7555da77ef6ac0361fdd8f65e3"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00009\\split_manifest.json",
+                                     "length":  938,
+                                     "sha256":  "b0d8ea2e5a3a38fa0b68a637579637ea3efc7ba51c730f27f86a637011dbca36"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00009\\validation_predictions.csv",
+                                     "length":  33227,
+                                     "sha256":  "dfd152c212bdef237e516f624099051517c6e6895905494f2b0710bc2f355971"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00009\\checkpoints\\best.pt",
+                                     "length":  744653,
+                                     "sha256":  "62ea537db4612e9628a32b0fa679471b3eef00a7c3d9873735cb7402826ced67"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00009\\checkpoints\\last.pt",
+                                     "length":  745037,
+                                     "sha256":  "522575f273235e59d6c8c8aa7dddbe860c65245400c7f0fa50173dafaee44a79"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00009\\figures\\learning.png",
+                                     "length":  106803,
+                                     "sha256":  "ee602145b148161fec4c4e0eab9dad9bf19f0a711998393a8a853a3cc1ebc52e"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00010\\data_sha256.json",
+                                     "length":  98,
+                                     "sha256":  "ac37f4da9dfd993a8492f3624fc3ab744d0e226aa5f1be7e18f2be33202e54da"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00010\\dispersion_source_train.csv",
+                                     "length":  2802,
+                                     "sha256":  "006a6f083904d67ea2b623498a7240f68b02693fdbe84bafb8220684d12162fe"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00010\\dispersion_source_validation.csv",
+                                     "length":  2782,
+                                     "sha256":  "8cc0beb4b83e99f05636f92fb3b2a27d08e6beaf59a694416e83bb34c7d236ae"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00010\\environment.json",
+                                     "length":  443,
+                                     "sha256":  "4d60105a173b5073d74423f771001ef46379599f70d42ae866c8ca99b190a3e1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00010\\history.csv",
+                                     "length":  671,
+                                     "sha256":  "863ab8953c467255179d80cc94a2e77b6117aad2a6e5ed4716e2fd6b0b03651f"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00010\\preprocessing.json",
+                                     "length":  1788,
+                                     "sha256":  "d2493b0c8d7b4f0099ea48597b6647ec0424b865efded6f168cb25dc56ee827a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00010\\resolved_config.yaml",
+                                     "length":  772,
+                                     "sha256":  "8c5f4db0fe0e794c54235900048661d998ec7d557e0098e45828c6a1d9fcb2b7"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00010\\result.json",
+                                     "length":  366,
+                                     "sha256":  "4999a18ea1710f221f5c729a218df0afbc56a028267ab2c96edc4f984a2606b3"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00010\\run_summary.json",
+                                     "length":  249,
+                                     "sha256":  "51e3e6ee8e77fa160904bbc5d86e9dd5d147ce70d9273546a59edee1b833130c"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00010\\split_manifest.json",
+                                     "length":  938,
+                                     "sha256":  "b0d8ea2e5a3a38fa0b68a637579637ea3efc7ba51c730f27f86a637011dbca36"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00010\\validation_predictions.csv",
+                                     "length":  33174,
+                                     "sha256":  "e91771363140f5c4efcccf77b70f84ba424b1c838ddc7843e21a0844ad51c6d5"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00010\\checkpoints\\best.pt",
+                                     "length":  2632717,
+                                     "sha256":  "394aef495b32f76695c31e87ee00ec1e93b643df35bd646e779be1c4cc18e131"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00010\\checkpoints\\last.pt",
+                                     "length":  2633165,
+                                     "sha256":  "6029577b5a9ec62eb25522f42a11fa6e97b0df7d869ba4e74cce76968543a995"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00010\\figures\\learning.png",
+                                     "length":  115105,
+                                     "sha256":  "52359fed1f1bdbdbaadb1c552235d7fa1a6ea6096456d4d6e0e365e63b1e77b1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00011\\data_sha256.json",
+                                     "length":  98,
+                                     "sha256":  "ac37f4da9dfd993a8492f3624fc3ab744d0e226aa5f1be7e18f2be33202e54da"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00011\\dispersion_source_train.csv",
+                                     "length":  2802,
+                                     "sha256":  "006a6f083904d67ea2b623498a7240f68b02693fdbe84bafb8220684d12162fe"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00011\\dispersion_source_validation.csv",
+                                     "length":  2782,
+                                     "sha256":  "8cc0beb4b83e99f05636f92fb3b2a27d08e6beaf59a694416e83bb34c7d236ae"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00011\\environment.json",
+                                     "length":  443,
+                                     "sha256":  "4d60105a173b5073d74423f771001ef46379599f70d42ae866c8ca99b190a3e1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00011\\history.csv",
+                                     "length":  955,
+                                     "sha256":  "033b19da0ad2953528c138a33ff75a1bd98b2ef06a226ddbe1af648558517649"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00011\\preprocessing.json",
+                                     "length":  1788,
+                                     "sha256":  "d2493b0c8d7b4f0099ea48597b6647ec0424b865efded6f168cb25dc56ee827a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00011\\resolved_config.yaml",
+                                     "length":  772,
+                                     "sha256":  "42c177bb845d1433f2c3a58e00e337ed31f5412bdd1b506e6fe8a92f1dfe5cbb"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00011\\result.json",
+                                     "length":  366,
+                                     "sha256":  "de45ebabf2d0e66b3ed784cd2782de4e1f6fa7904957171d33d323f856535de2"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00011\\run_summary.json",
+                                     "length":  251,
+                                     "sha256":  "99d884df5353894ff2d2a393bf2d0b1ffa55661883299b0954deacddd031d0b6"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00011\\split_manifest.json",
+                                     "length":  938,
+                                     "sha256":  "b0d8ea2e5a3a38fa0b68a637579637ea3efc7ba51c730f27f86a637011dbca36"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00011\\validation_predictions.csv",
+                                     "length":  33070,
+                                     "sha256":  "d2ceb692237581c5195d3df3d358eae4acc2de3a648057963dff3e0daf462650"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00011\\checkpoints\\best.pt",
+                                     "length":  2633037,
+                                     "sha256":  "f022b7c3792e1561295c0ebd301260c1d10179e56251fd05b537182b9dca5bbb"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00011\\checkpoints\\last.pt",
+                                     "length":  2633421,
+                                     "sha256":  "88b3de5c18e0028ace2d4dea99c273dd77b8116e8be8026eea67d46ae29dfa1f"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00011\\figures\\learning.png",
+                                     "length":  106565,
+                                     "sha256":  "2d72256e5f9d10054dfc2167b498121a7d93b3695102989af8881e3e8d70c0b5"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00012\\data_sha256.json",
+                                     "length":  98,
+                                     "sha256":  "ac37f4da9dfd993a8492f3624fc3ab744d0e226aa5f1be7e18f2be33202e54da"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00012\\dispersion_source_train.csv",
+                                     "length":  2802,
+                                     "sha256":  "006a6f083904d67ea2b623498a7240f68b02693fdbe84bafb8220684d12162fe"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00012\\dispersion_source_validation.csv",
+                                     "length":  2782,
+                                     "sha256":  "8cc0beb4b83e99f05636f92fb3b2a27d08e6beaf59a694416e83bb34c7d236ae"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00012\\environment.json",
+                                     "length":  443,
+                                     "sha256":  "4d60105a173b5073d74423f771001ef46379599f70d42ae866c8ca99b190a3e1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00012\\history.csv",
+                                     "length":  960,
+                                     "sha256":  "82909cc67d25b8c861274fef3c75ba2604324d736493bdd251e59892d962b8d2"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00012\\preprocessing.json",
+                                     "length":  1788,
+                                     "sha256":  "d2493b0c8d7b4f0099ea48597b6647ec0424b865efded6f168cb25dc56ee827a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00012\\resolved_config.yaml",
+                                     "length":  773,
+                                     "sha256":  "3628db2ef335015cd890a701205d00fdd57bfb2fa298fabbf2bf3d82abf28152"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00012\\result.json",
+                                     "length":  368,
+                                     "sha256":  "819a73e4ab083a50b1584e382942d88b6150c100965b810ebf7a79cdbaf32ed3"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00012\\run_summary.json",
+                                     "length":  251,
+                                     "sha256":  "f09f06de060d6a8bc4d646ccaae60bbe67af269c926ab1fa144d12c3dcb20919"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00012\\split_manifest.json",
+                                     "length":  938,
+                                     "sha256":  "b0d8ea2e5a3a38fa0b68a637579637ea3efc7ba51c730f27f86a637011dbca36"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00012\\validation_predictions.csv",
+                                     "length":  33087,
+                                     "sha256":  "5afab6adeb4e86b0f64d94a4bb88db81d29ef3c08cef516b75a9329a10e66d1c"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00012\\checkpoints\\best.pt",
+                                     "length":  2633037,
+                                     "sha256":  "4301398b90d1b9c9657075e4fd6b7df6f2635d30b5d70705015cb97d6725269c"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00012\\checkpoints\\last.pt",
+                                     "length":  2633421,
+                                     "sha256":  "9fae5c11528c5c86d12eae73b1d769208d8cd872a0c688dd166f31c47876b295"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00012\\figures\\learning.png",
+                                     "length":  104413,
+                                     "sha256":  "74133455bd005280446cf79dca69423d7336e2187018e41559aa566681d69b53"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00013\\data_sha256.json",
+                                     "length":  98,
+                                     "sha256":  "ac37f4da9dfd993a8492f3624fc3ab744d0e226aa5f1be7e18f2be33202e54da"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00013\\dispersion_source_train.csv",
+                                     "length":  2802,
+                                     "sha256":  "006a6f083904d67ea2b623498a7240f68b02693fdbe84bafb8220684d12162fe"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00013\\dispersion_source_validation.csv",
+                                     "length":  2782,
+                                     "sha256":  "8cc0beb4b83e99f05636f92fb3b2a27d08e6beaf59a694416e83bb34c7d236ae"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00013\\environment.json",
+                                     "length":  443,
+                                     "sha256":  "4d60105a173b5073d74423f771001ef46379599f70d42ae866c8ca99b190a3e1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00013\\history.csv",
+                                     "length":  1496,
+                                     "sha256":  "a6d4a0c4d3e33a8d81245fabf587d58b69fa6880359f2a6f066ab135424a913f"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00013\\preprocessing.json",
+                                     "length":  1788,
+                                     "sha256":  "d2493b0c8d7b4f0099ea48597b6647ec0424b865efded6f168cb25dc56ee827a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00013\\resolved_config.yaml",
+                                     "length":  772,
+                                     "sha256":  "a17e7076a4c92b5b49d8a12dcb6d34b55b7077022a7edd7aa8a33df83721e115"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00013\\result.json",
+                                     "length":  367,
+                                     "sha256":  "b1caef6a9fd935d5d6baba08bf429b4e83d3682f26d796ff162e4183787628d2"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00013\\run_summary.json",
+                                     "length":  252,
+                                     "sha256":  "f871e8d70a06f3fe63b055c235dd18135440ea832f57d03d169b494ef52b8d7f"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00013\\split_manifest.json",
+                                     "length":  938,
+                                     "sha256":  "b0d8ea2e5a3a38fa0b68a637579637ea3efc7ba51c730f27f86a637011dbca36"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00013\\validation_predictions.csv",
+                                     "length":  33145,
+                                     "sha256":  "392f162ad31119a3298d591d297d9479a41fcac62a613bd5e55144cf82fb2553"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00013\\checkpoints\\best.pt",
+                                     "length":  1045037,
+                                     "sha256":  "2f08fc3f5ce9098906e6d8e319ca360d9b2302c478ec6004767e04e531cb6a4d"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00013\\checkpoints\\last.pt",
+                                     "length":  1045357,
+                                     "sha256":  "eb7ce783c875c2ad08895838649ccfb1738029c33dff1f340a7f7e09787c289f"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00013\\figures\\learning.png",
+                                     "length":  104139,
+                                     "sha256":  "85c0a302aa0bd8c7b45c27621b90e08eeb9899ed6a76d977d6c4c005b476ba4e"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00014\\data_sha256.json",
+                                     "length":  98,
+                                     "sha256":  "ac37f4da9dfd993a8492f3624fc3ab744d0e226aa5f1be7e18f2be33202e54da"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00014\\dispersion_source_train.csv",
+                                     "length":  2802,
+                                     "sha256":  "006a6f083904d67ea2b623498a7240f68b02693fdbe84bafb8220684d12162fe"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00014\\dispersion_source_validation.csv",
+                                     "length":  2782,
+                                     "sha256":  "8cc0beb4b83e99f05636f92fb3b2a27d08e6beaf59a694416e83bb34c7d236ae"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00014\\environment.json",
+                                     "length":  443,
+                                     "sha256":  "4d60105a173b5073d74423f771001ef46379599f70d42ae866c8ca99b190a3e1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00014\\history.csv",
+                                     "length":  1489,
+                                     "sha256":  "4bed643b1bd4edfa7bf48e50acc4154ea1b8e1fc52dde64e6234a069992acf0e"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00014\\preprocessing.json",
+                                     "length":  1788,
+                                     "sha256":  "d2493b0c8d7b4f0099ea48597b6647ec0424b865efded6f168cb25dc56ee827a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00014\\resolved_config.yaml",
+                                     "length":  772,
+                                     "sha256":  "8e65cf038683fe0dca931f26bb185b10da470e36634fafa550a7bad397468f5d"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00014\\result.json",
+                                     "length":  367,
+                                     "sha256":  "716997af17efa2234011f7dd441895823042ae1ad1b5027f678e0e0fa61449c8"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00014\\run_summary.json",
+                                     "length":  252,
+                                     "sha256":  "2d4a14d59ea8dd1dd257efb3076c2eacad9169afcf3b3f505e89fb69b3ce881b"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00014\\split_manifest.json",
+                                     "length":  938,
+                                     "sha256":  "b0d8ea2e5a3a38fa0b68a637579637ea3efc7ba51c730f27f86a637011dbca36"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00014\\validation_predictions.csv",
+                                     "length":  33184,
+                                     "sha256":  "311ee679d390a6cb8e2b4d22eb0ed2b8e22b357668bc2648fd5e7878213ff22b"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00014\\checkpoints\\best.pt",
+                                     "length":  243853,
+                                     "sha256":  "eb7e368986a6045e7c2763900ac8a6ea0476964ae12d019b53c8570aec505b26"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00014\\checkpoints\\last.pt",
+                                     "length":  243917,
+                                     "sha256":  "2bfdf2d3c847be4a858c2f36b911af6335a3e91f247076d4c51ab151c8699a0e"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00014\\figures\\learning.png",
+                                     "length":  91193,
+                                     "sha256":  "c47e4ec3c8daff989027d86668c7688485ebca093137e976d50d995a857f360b"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00015\\data_sha256.json",
+                                     "length":  98,
+                                     "sha256":  "ac37f4da9dfd993a8492f3624fc3ab744d0e226aa5f1be7e18f2be33202e54da"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00015\\dispersion_source_train.csv",
+                                     "length":  2802,
+                                     "sha256":  "006a6f083904d67ea2b623498a7240f68b02693fdbe84bafb8220684d12162fe"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00015\\dispersion_source_validation.csv",
+                                     "length":  2782,
+                                     "sha256":  "8cc0beb4b83e99f05636f92fb3b2a27d08e6beaf59a694416e83bb34c7d236ae"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00015\\environment.json",
+                                     "length":  443,
+                                     "sha256":  "4d60105a173b5073d74423f771001ef46379599f70d42ae866c8ca99b190a3e1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00015\\history.csv",
+                                     "length":  1399,
+                                     "sha256":  "2d6d6ed8c67e84a9a3d98b5f69a544c85bc1f987bb8cc7070968079d77c89a4d"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00015\\preprocessing.json",
+                                     "length":  1788,
+                                     "sha256":  "d2493b0c8d7b4f0099ea48597b6647ec0424b865efded6f168cb25dc56ee827a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00015\\resolved_config.yaml",
+                                     "length":  770,
+                                     "sha256":  "7aec476447e77127a62ea10038492983ef79045186e60bc6478e76623b58333a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00015\\result.json",
+                                     "length":  364,
+                                     "sha256":  "e013f724101c4e649fb10bab6633a5c05dde2e3d5f76380a6923c6245c4099ec"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00015\\run_summary.json",
+                                     "length":  252,
+                                     "sha256":  "a4c61379261afe11ea8933faa780eb3293b3c81ec9ae7c6e155e6cd344b08b20"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00015\\split_manifest.json",
+                                     "length":  938,
+                                     "sha256":  "b0d8ea2e5a3a38fa0b68a637579637ea3efc7ba51c730f27f86a637011dbca36"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00015\\validation_predictions.csv",
+                                     "length":  33143,
+                                     "sha256":  "d233e4d64a54fd073a085cc7ff540afb69a87d36c75f83fa13e6ce4e2f723bb5"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00015\\checkpoints\\best.pt",
+                                     "length":  1044845,
+                                     "sha256":  "ebfc76042c6abb949a557689a76bcfdb47ab07d0a4afddfa1357981f3e580065"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00015\\checkpoints\\last.pt",
+                                     "length":  1045229,
+                                     "sha256":  "34b58c44f1021df86ab8f686566ba8b4120652eafd6d9067424b583937f4b197"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00015\\figures\\learning.png",
+                                     "length":  103431,
+                                     "sha256":  "e812d9fff4d8cd3a4b03a5c75a292623e85f6f09b448df76fb476d282e688428"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00016\\data_sha256.json",
+                                     "length":  98,
+                                     "sha256":  "ac37f4da9dfd993a8492f3624fc3ab744d0e226aa5f1be7e18f2be33202e54da"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00016\\dispersion_source_train.csv",
+                                     "length":  2802,
+                                     "sha256":  "006a6f083904d67ea2b623498a7240f68b02693fdbe84bafb8220684d12162fe"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00016\\dispersion_source_validation.csv",
+                                     "length":  2782,
+                                     "sha256":  "8cc0beb4b83e99f05636f92fb3b2a27d08e6beaf59a694416e83bb34c7d236ae"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00016\\environment.json",
+                                     "length":  443,
+                                     "sha256":  "4d60105a173b5073d74423f771001ef46379599f70d42ae866c8ca99b190a3e1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00016\\history.csv",
+                                     "length":  1404,
+                                     "sha256":  "da9d5b5c91341f65fbd22d56d3bfd200862bc5821adc92c543467ea2e0461eea"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00016\\preprocessing.json",
+                                     "length":  1788,
+                                     "sha256":  "d2493b0c8d7b4f0099ea48597b6647ec0424b865efded6f168cb25dc56ee827a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00016\\resolved_config.yaml",
+                                     "length":  773,
+                                     "sha256":  "458c6aa1a74cceb151c685c8ad6b4145719824592b1725396ccd9892ac5fb606"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00016\\result.json",
+                                     "length":  368,
+                                     "sha256":  "239b8b5ea975386c1ebc03966e32375c712fe7568e349789245b9e3919cd3353"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00016\\run_summary.json",
+                                     "length":  252,
+                                     "sha256":  "44cbbfb51cbe7a2503e7e206b83fe31122a806df4c8beef0df26cb44620bbedd"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00016\\split_manifest.json",
+                                     "length":  938,
+                                     "sha256":  "b0d8ea2e5a3a38fa0b68a637579637ea3efc7ba51c730f27f86a637011dbca36"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00016\\validation_predictions.csv",
+                                     "length":  33148,
+                                     "sha256":  "98f30791f911167a7c1b028442d8307a04171c920df2b9c5b0ce7273924029e6"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00016\\checkpoints\\best.pt",
+                                     "length":  1044845,
+                                     "sha256":  "dd519864ef7adb54630aecc4485c26a1cab54cc604e89b8f2019174f500ddffc"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00016\\checkpoints\\last.pt",
+                                     "length":  1045229,
+                                     "sha256":  "ae30de79bde19df610c9c1a947b1c7256bb21c8b15e60d80b761cee546875cd0"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00016\\figures\\learning.png",
+                                     "length":  104677,
+                                     "sha256":  "7ba660af1dde0dced942dc523dfc30d4d531212f23e20d053892e9b967526af8"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00017\\data_sha256.json",
+                                     "length":  98,
+                                     "sha256":  "ac37f4da9dfd993a8492f3624fc3ab744d0e226aa5f1be7e18f2be33202e54da"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00017\\dispersion_source_train.csv",
+                                     "length":  2802,
+                                     "sha256":  "006a6f083904d67ea2b623498a7240f68b02693fdbe84bafb8220684d12162fe"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00017\\dispersion_source_validation.csv",
+                                     "length":  2782,
+                                     "sha256":  "8cc0beb4b83e99f05636f92fb3b2a27d08e6beaf59a694416e83bb34c7d236ae"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00017\\environment.json",
+                                     "length":  443,
+                                     "sha256":  "4d60105a173b5073d74423f771001ef46379599f70d42ae866c8ca99b190a3e1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00017\\history.csv",
+                                     "length":  962,
+                                     "sha256":  "a52621c735659974787901cf85b8e031a2a326f8ec5235de7fc9d7aee6ec9242"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00017\\preprocessing.json",
+                                     "length":  1788,
+                                     "sha256":  "d2493b0c8d7b4f0099ea48597b6647ec0424b865efded6f168cb25dc56ee827a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00017\\resolved_config.yaml",
+                                     "length":  772,
+                                     "sha256":  "02fa2b68f07834d4d840244d33a44014b5103fd7ade3e08f2bbe1d1207278c34"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00017\\result.json",
+                                     "length":  367,
+                                     "sha256":  "82e7f134976052d1cf2ebca408f144f55d1af20099d30090ee6413fbee6f7c9e"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00017\\run_summary.json",
+                                     "length":  252,
+                                     "sha256":  "31f7053acacef18473a8cf6d0e141ba3b23b3ac55f9796cf3d5ff52e27f2925b"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00017\\split_manifest.json",
+                                     "length":  938,
+                                     "sha256":  "b0d8ea2e5a3a38fa0b68a637579637ea3efc7ba51c730f27f86a637011dbca36"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00017\\validation_predictions.csv",
+                                     "length":  33199,
+                                     "sha256":  "6bff4808fd5a7e968e7c5bf8922bf74588ceba7723792dc3132f0b2805a3aa1c"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00017\\checkpoints\\best.pt",
+                                     "length":  1044333,
+                                     "sha256":  "228a66531912ecf17692d3db75cf93110faf906d012d7a76dd2cf4b2a3b7e956"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00017\\checkpoints\\last.pt",
+                                     "length":  1044781,
+                                     "sha256":  "a5b28280c4548a438eb0bfedbdc955ac387b4e97c27d6001e7e09ea646c95f31"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00017\\figures\\learning.png",
+                                     "length":  98536,
+                                     "sha256":  "5cdc78da72389262ada8296eca5746dc9f436c6dc9eefeb6aab0b5ca87ec48c3"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00018\\data_sha256.json",
+                                     "length":  98,
+                                     "sha256":  "ac37f4da9dfd993a8492f3624fc3ab744d0e226aa5f1be7e18f2be33202e54da"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00018\\dispersion_source_train.csv",
+                                     "length":  2802,
+                                     "sha256":  "006a6f083904d67ea2b623498a7240f68b02693fdbe84bafb8220684d12162fe"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00018\\dispersion_source_validation.csv",
+                                     "length":  2782,
+                                     "sha256":  "8cc0beb4b83e99f05636f92fb3b2a27d08e6beaf59a694416e83bb34c7d236ae"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00018\\environment.json",
+                                     "length":  443,
+                                     "sha256":  "4d60105a173b5073d74423f771001ef46379599f70d42ae866c8ca99b190a3e1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00018\\history.csv",
+                                     "length":  1400,
+                                     "sha256":  "4f13783eb3cab7da6e8f877e13eb468b5e3e3b791c8f7f778049cd191d2caca7"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00018\\preprocessing.json",
+                                     "length":  1788,
+                                     "sha256":  "d2493b0c8d7b4f0099ea48597b6647ec0424b865efded6f168cb25dc56ee827a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00018\\resolved_config.yaml",
+                                     "length":  772,
+                                     "sha256":  "2d744611a58b947d1abf6bcaae18a240eafd932887f1a2207b2d8d99e23c0ec1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00018\\result.json",
+                                     "length":  367,
+                                     "sha256":  "5fe52768ee076c691bc2039fc8cb9ddc2cc86b9fc465060f139d138d034d79a7"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00018\\run_summary.json",
+                                     "length":  251,
+                                     "sha256":  "f0dd4634cfff6e5eb9d29139620465860081e57eb75ed6a4a0a12099928a6cbe"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00018\\split_manifest.json",
+                                     "length":  938,
+                                     "sha256":  "b0d8ea2e5a3a38fa0b68a637579637ea3efc7ba51c730f27f86a637011dbca36"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00018\\validation_predictions.csv",
+                                     "length":  33220,
+                                     "sha256":  "6576df6fb1f0c7f2c7be8cdf3953cc138b36b04c6c06d276ab5794c9de6a4e11"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00018\\checkpoints\\best.pt",
+                                     "length":  1044845,
+                                     "sha256":  "2b2ab295691d250cb6d5d1b681fe74532eb896f52a5f81637fcf325842b69878"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00018\\checkpoints\\last.pt",
+                                     "length":  1045229,
+                                     "sha256":  "d6a297ec29c3f3ad3fe48c5934e239b3d50fa69ae9a4ebcdbdf175f325778c59"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00018\\figures\\learning.png",
+                                     "length":  102930,
+                                     "sha256":  "0be70ff279f549ad5b9db7655727fad90fe61251e834bc7e797a44f8a0ac17d7"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00019\\data_sha256.json",
+                                     "length":  98,
+                                     "sha256":  "ac37f4da9dfd993a8492f3624fc3ab744d0e226aa5f1be7e18f2be33202e54da"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00019\\dispersion_source_train.csv",
+                                     "length":  2802,
+                                     "sha256":  "006a6f083904d67ea2b623498a7240f68b02693fdbe84bafb8220684d12162fe"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00019\\dispersion_source_validation.csv",
+                                     "length":  2782,
+                                     "sha256":  "8cc0beb4b83e99f05636f92fb3b2a27d08e6beaf59a694416e83bb34c7d236ae"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00019\\environment.json",
+                                     "length":  443,
+                                     "sha256":  "4d60105a173b5073d74423f771001ef46379599f70d42ae866c8ca99b190a3e1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00019\\history.csv",
+                                     "length":  679,
+                                     "sha256":  "42417ec4fe9810f621c426128cd115748d64d8ea3c0036d7b150e45a5e94a664"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00019\\preprocessing.json",
+                                     "length":  1788,
+                                     "sha256":  "d2493b0c8d7b4f0099ea48597b6647ec0424b865efded6f168cb25dc56ee827a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00019\\resolved_config.yaml",
+                                     "length":  772,
+                                     "sha256":  "7f65cec740330e38ec87c69605f4b51c3f029c417a1c77ea725e7d0524f65982"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00019\\result.json",
+                                     "length":  366,
+                                     "sha256":  "318c82fa709c3977c05b2053dacfd40c751e788ae8a65542f6872b8ad2c7ecda"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00019\\run_summary.json",
+                                     "length":  251,
+                                     "sha256":  "03a33436e16ea255cef9c3bf33505f613dd416ccd1ab004763b6cd7f38ed4905"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00019\\split_manifest.json",
+                                     "length":  938,
+                                     "sha256":  "b0d8ea2e5a3a38fa0b68a637579637ea3efc7ba51c730f27f86a637011dbca36"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00019\\validation_predictions.csv",
+                                     "length":  33097,
+                                     "sha256":  "0006d622baa36c9e365bf26682c3f165655f8081fcadfb49a937ff2c533c3ab5"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00019\\checkpoints\\best.pt",
+                                     "length":  1044077,
+                                     "sha256":  "4b9593a383ccd25e2ca03dc576e9decc7257be2b48da6fe44287fb43df31c862"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00019\\checkpoints\\last.pt",
+                                     "length":  1044461,
+                                     "sha256":  "bad62415da96350dd60ad26aa684bcbf30e8a1b475839d3285ac746e2d3c4ddc"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_hpo_fd001_s42\\trial_00019\\figures\\learning.png",
+                                     "length":  105083,
+                                     "sha256":  "b18d7de1fff25e9b3ae57b018981c230cc4cbccccdc3832bf35b3e39b7c39990"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\data\\RUL_FD001.txt",
+                                     "length":  15,
+                                     "sha256":  "19cc86f1e405726ff713fd8f2144d1ff7cf7d7cd554ea6198e21801a0690207a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\data\\test_FD001.txt",
+                                     "length":  10180,
+                                     "sha256":  "d3bd5a05a2617071f229feeb1fa699f3970d087995217f5770175bf15d4dc77d"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\data\\train_FD001.txt",
+                                     "length":  16927,
+                                     "sha256":  "0d23fb47fae3257b757ea04dd35dcfe7e1754b05800284d4e17e72823f01e9f1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\evaluation\\data_sha256.json",
+                                     "length":  399,
+                                     "sha256":  "65303e2c15fc63fc7c0029159dde01356a58ed6aedc580e6219c6868e3b3b521"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\evaluation\\dispersion_test.csv",
+                                     "length":  3245,
+                                     "sha256":  "bced9fc76abc3c128e3a520cce0ed3b3586afa8c92eae6a62f726f8308034142"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\evaluation\\environment.json",
+                                     "length":  443,
+                                     "sha256":  "4d60105a173b5073d74423f771001ef46379599f70d42ae866c8ca99b190a3e1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\evaluation\\metrics.json",
+                                     "length":  578,
+                                     "sha256":  "9cb7235b922d63bf8ad1e9b568348fc9fecb135f8f2b673d11a0a99f0bb40ebb"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\evaluation\\predictions.csv",
+                                     "length":  485,
+                                     "sha256":  "e0b0bdef7807adace41a93b012e4d38aa22e41dd6470546310ca0bbb975d5510"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\evaluation\\preprocessing.json",
+                                     "length":  2000,
+                                     "sha256":  "0501cb5560caf7ea634446557826d9c04a4a76f4b16f9875d661e0f69b94b0f5"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\evaluation\\resolved_config.yaml",
+                                     "length":  771,
+                                     "sha256":  "96e70f38e633e8e97384fc750d69fdde0a0bd9f4f34fa409c2fdf5d0a3b3b655"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\evaluation\\run_summary.json",
+                                     "length":  109,
+                                     "sha256":  "d50c8e31d5f30ab8ceded0d70069a4816dee4dbbc1319e794f76ac49c4d50b27"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\evaluation\\split_manifest.json",
+                                     "length":  86,
+                                     "sha256":  "76ebc38153c45cdf958ab0d9c5c052a9afa70f733780162c1430829911a35146"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\evaluation\\terminal_rul_mapping.json",
+                                     "length":  68,
+                                     "sha256":  "425548bcddb637779b571b0e349a1c99ced8f198815bf7b6d033920e67353504"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\evaluation\\trajectories.csv",
+                                     "length":  2376,
+                                     "sha256":  "6233e0a8145a523a46be3358e5af8b852a5271aaae4e11ec755cf743b9a80f19"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\evaluation\\figures\\error_vs_rul.png",
+                                     "length":  48482,
+                                     "sha256":  "055e579e245e0ee153516522b423815707b19d1f6a3765a380a4ca920afda977"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\evaluation\\figures\\predicted_vs_true.png",
+                                     "length":  63858,
+                                     "sha256":  "308405a52c49e8608dd38f2dc5b3727ba8938f4be3e2654857219af1e20d03f2"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\evaluation\\figures\\signed_errors.png",
+                                     "length":  48124,
+                                     "sha256":  "13fd0be9cc2308d4c9cc1a939ae35400e2653c0f160f1017f6fb0f0e869c3173"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\evaluation\\figures\\trajectories.png",
+                                     "length":  353561,
+                                     "sha256":  "88c3955d5fa7a19e562e1df69ac79d6c0674906cf891c1388c8596b489237680"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\train\\data_sha256.json",
+                                     "length":  134,
+                                     "sha256":  "22c324793e132186f60eae2841abd4abba139ac1c2afc726a05d2950260b4b51"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\train\\dispersion_source_train.csv",
+                                     "length":  3295,
+                                     "sha256":  "4eed6c8d48249618bd74b86a8a63d7ee95c74ad0a6b7a5d1ccd439996eb576b0"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\train\\dispersion_source_validation.csv",
+                                     "length":  3232,
+                                     "sha256":  "c4f198f40a0321993e6bf3d45afe6f8c9fad83fe60d9f650824945915e4e0407"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\train\\environment.json",
+                                     "length":  443,
+                                     "sha256":  "4d60105a173b5073d74423f771001ef46379599f70d42ae866c8ca99b190a3e1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\train\\history.csv",
+                                     "length":  146,
+                                     "sha256":  "44173bdae9e3a1e0afff2d20b9439e39f268dc3343cdd24ff647da02952f2b12"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\train\\preprocessing.json",
+                                     "length":  2000,
+                                     "sha256":  "0501cb5560caf7ea634446557826d9c04a4a76f4b16f9875d661e0f69b94b0f5"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\train\\resolved_config.yaml",
+                                     "length":  771,
+                                     "sha256":  "96e70f38e633e8e97384fc750d69fdde0a0bd9f4f34fa409c2fdf5d0a3b3b655"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\train\\run_summary.json",
+                                     "length":  246,
+                                     "sha256":  "656fd92a1fbd0b2522d38486b1cdc76c62140c643c4e7aa9c1ebb898a07070a7"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\train\\split_manifest.json",
+                                     "length":  86,
+                                     "sha256":  "76ebc38153c45cdf958ab0d9c5c052a9afa70f733780162c1430829911a35146"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\train\\validation_predictions.csv",
+                                     "length":  647,
+                                     "sha256":  "a18181b0db9759e9c72ed056eeed0d9a7ec36806e58a0d387df7a90b0a36c093"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\train\\checkpoints\\best.pt",
+                                     "length":  45101,
+                                     "sha256":  "7793b343820d000278d41081a7ab5b182210bc11312a8f40d098d4ea5826ef82"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\train\\checkpoints\\last.pt",
+                                     "length":  45101,
+                                     "sha256":  "8a002deb9ccc03b73929ed47374c6e46fafdd108eb88923c057354d6ea16b122"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_smoke\\train\\figures\\learning.png",
+                                     "length":  100478,
+                                     "sha256":  "4b389ef3cf00b9c886c9920054dcf87b1bd14e06dbf49acdce7ba3058be8bec5"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_source_fd001_tuned_s42\\data_sha256.json",
+                                     "length":  98,
+                                     "sha256":  "ac37f4da9dfd993a8492f3624fc3ab744d0e226aa5f1be7e18f2be33202e54da"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_source_fd001_tuned_s42\\dispersion_source_train.csv",
+                                     "length":  2802,
+                                     "sha256":  "006a6f083904d67ea2b623498a7240f68b02693fdbe84bafb8220684d12162fe"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_source_fd001_tuned_s42\\dispersion_source_validation.csv",
+                                     "length":  2782,
+                                     "sha256":  "8cc0beb4b83e99f05636f92fb3b2a27d08e6beaf59a694416e83bb34c7d236ae"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_source_fd001_tuned_s42\\environment.json",
+                                     "length":  443,
+                                     "sha256":  "4d60105a173b5073d74423f771001ef46379599f70d42ae866c8ca99b190a3e1"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_source_fd001_tuned_s42\\history.csv",
+                                     "length":  1021,
+                                     "sha256":  "854bec07ff538886bf46f23364e4b8fc7bde9c59a0136c70cdc4e7989b9205b5"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_source_fd001_tuned_s42\\preprocessing.json",
+                                     "length":  1788,
+                                     "sha256":  "d2493b0c8d7b4f0099ea48597b6647ec0424b865efded6f168cb25dc56ee827a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_source_fd001_tuned_s42\\resolved_config.yaml",
+                                     "length":  774,
+                                     "sha256":  "510ecd378e5f8742318a36e49277d062255be04551cf0e4fe7a248f38398d7d4"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_source_fd001_tuned_s42\\run_summary.json",
+                                     "length":  251,
+                                     "sha256":  "6cb466e2b0c5f5c9aad3040992579c928de9f044229f4b8be2f45fdb5f766f63"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_source_fd001_tuned_s42\\split_manifest.json",
+                                     "length":  938,
+                                     "sha256":  "b0d8ea2e5a3a38fa0b68a637579637ea3efc7ba51c730f27f86a637011dbca36"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_source_fd001_tuned_s42\\validation_predictions.csv",
+                                     "length":  33097,
+                                     "sha256":  "0006d622baa36c9e365bf26682c3f165655f8081fcadfb49a937ff2c533c3ab5"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_source_fd001_tuned_s42\\checkpoints\\best.pt",
+                                     "length":  1044077,
+                                     "sha256":  "c9a3a773d228428a9193103b33e1987ff65164f1226e2a8f62420726ff763b12"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_source_fd001_tuned_s42\\checkpoints\\last.pt",
+                                     "length":  1044845,
+                                     "sha256":  "9fa43d183ed2930c957cab5595975bdfa99c90cf1a4058dcebffc6a6c7b0780a"
+                                 },
+                                 {
+                                     "path":  "runs\\mission_20261102_1800_source_fd001_tuned_s42\\figures\\learning.png",
+                                     "length":  111654,
+                                     "sha256":  "b732c58fdf5cb4b438f918103fcfcdc121abc0552b09a43afbc69b36df9b395a"
+                                 }
+                             ],
+    "original_data_sha256":  [
+                                 {
+                                     "path":  "src\\train_FD001.txt",
+                                     "length":  3515356,
+                                     "sha256":  "963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8"
+                                 },
+                                 {
+                                     "path":  "src\\test_FD001.txt",
+                                     "length":  2228855,
+                                     "sha256":  "3cda7109ce17bafb5443f2ac926cfcf88154b941b8c4cf95eb55d1ddd6f52851"
+                                 },
+                                 {
+                                     "path":  "src\\RUL_FD001.txt",
+                                     "length":  429,
+                                     "sha256":  "a19c8ec94931949d0485bdc35118206e9c81c4547b422efb9cf86f4ceddbceca"
+                                 },
+                                 {
+                                     "path":  "src\\train_FD002.txt",
+                                     "length":  9082480,
+                                     "sha256":  "dac6c4dbc4e7c1bdeb5747da3d313d05c395bb99801b44a002b26a2ba13d788f"
+                                 },
+                                 {
+                                     "path":  "src\\test_FD002.txt",
+                                     "length":  5734587,
+                                     "sha256":  "de7b5bf7e998a985c378488480528b7c02cff1406a46740def362dda8d9b4e02"
+                                 },
+                                 {
+                                     "path":  "src\\RUL_FD002.txt",
+                                     "length":  1110,
+                                     "sha256":  "c851dd96a6ea6998d3c4a8f834d3c8013aa90e93a6ed950dc826ad0655b2906b"
+                                 }
+                             ],
+    "protected_runs":  [
+                           "runs/mission_20261102_1800_hpo_fd001_s42",
+                           "runs/mission_20261102_1800_smoke",
+                           "runs/mission_20261102_1800_source_fd001_tuned_s42"
+                       ]
+}
